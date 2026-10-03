@@ -7,7 +7,7 @@ SIP	No changes — works fully enabled
 
 NOTE: Dont replace the kext in `ORIG-HDAUniversal`  with a newer version, it will not work!
 
-Why new version will not work: HDAUniversal build IMPORTS 3 IOGraphics symbol(s)!
+Why new version will not work: Latest HDAUniversal build IMPORTS 3 IOGraphics symbol(s)!
 The prelinker cannot resolve IOGraphicsFamily (not in the boot KC)
 
 
