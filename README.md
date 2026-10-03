@@ -5,6 +5,13 @@ Download [HDAUniversal Bootloader Injector](https://github.com/chris1111/HDAUniv
 
 SIP	No changes — works fully enabled
 
+NOTE: Dont replace the kext in `ORIG-HDAUniversal`  with a newer version, it will not work!
+
+Why new version will not work: HDAUniversal build IMPORTS 3 IOGraphics symbol(s)!
+The prelinker cannot resolve IOGraphicsFamily (not in the boot KC)
+
+
+
 ### The script's operations, in execution order:
 1. The source material
 Takes the pristine HDAUniversal.kext from the shipped ORIG-HDAUniversal/ folder (untouched original from MaLd0n)
