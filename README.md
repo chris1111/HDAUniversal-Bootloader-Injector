@@ -10,6 +10,8 @@ NOTE: Dont replace the kext in `ORIG-HDAUniversal`  with a newer version, it wil
 Why new version will not work: Latest HDAUniversal build IMPORTS 3 IOGraphics symbol(s)!
 The prelinker cannot resolve IOGraphicsFamily (not in the boot KC)
 
+My test on macOS Tahoe 26.7.1 (25G241) success!
+
 
 
 ### The script's operations, in execution order:
