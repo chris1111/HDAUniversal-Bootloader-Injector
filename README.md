@@ -41,4 +41,4 @@ THE ALIAS (plist) | Same rename in CFBundleIdentifier
 
 chris1111 — Coder
 
-MaLd0n - Developer
+MaLd0n - [Developer](https://olarila.com/profile/2-mald0n/)
