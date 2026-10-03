@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>25G5043d</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>HDAUniversal</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.olarila.driver.HDAUniversal</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>HDAUniversal</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1.185</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>0.1.185</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>25F70</string>
+	<key>DTPlatformName</key>
+	<string>macosx</string>
+	<key>DTPlatformVersion</key>
+	<string>26.5</string>
+	<key>DTSDKBuild</key>
+	<string>25F70</string>
+	<key>DTSDKName</key>
+	<string>macosx26.5</string>
+	<key>DTXcode</key>
+	<string>2660</string>
+	<key>DTXcodeBuild</key>
+	<string>17F113</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>HDAUniversal Analog HDEF</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.olarila.driver.HDAUniversal</string>
+			<key>IOClass</key>
+			<string>HDAUniversalDevice</string>
+			<key>IONameMatch</key>
+			<string>HDEF</string>
+			<key>IOProbeScore</key>
+			<integer>95000</integer>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+		<key>HDAUniversal Analog PCI Class</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.olarila.driver.HDAUniversal</string>
+			<key>IOClass</key>
+			<string>HDAUniversalDevice</string>
+			<key>IOPCIClassMatch</key>
+			<string>0x04030000&amp;0xffff0000</string>
+			<key>IOProbeScore</key>
+			<integer>90000</integer>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+	</dict>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.13</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>®Daniel Maldonado</string>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.iokit.IOAudioFamily</key>
+		<string>1.1fc9</string>
+		<key>com.apple.iokit.IOPCIFamily</key>
+		<string>2.0</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>8.0.0</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>8.0.0</string>
+		<key>com.apple.kpi.mach</key>
+		<string>8.0.0</string>
+	</dict>
+	<key>OSBundleRequired</key>
+	<string>Root</string>
+</dict>
+</plist>
